@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background: #222;
+}
+a{
+    text-decoration: none;
+}
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    padding: 1.1em;
+    background-color:#030F17 ;
+    width: 100%;
+    height: 70px;
+   display: flex;
+   padding: 10px 160px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+}
+header a{
+    text-decoration: none;
+}
+.logo{
+    color: #f1f1ff;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+header nav a{
+    color: #f1f1ff;
+    font-size: 1em; 
+    padding-left: 15px;
+    font-weight:500 ;
+    
+}
+header nav a:hover{
+    color: #f1f1ff9b;
+}
+section{
+    padding: 200px 300px;
+}
+.main{
+    width: 100%;
+    min-height: 100hv;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image:url(media/test2.png);
+   background-position:center; 
+   background-attachment:scroll;  
+}
+.main h2{
+    font-weight: bold;
+    color: #79d3fd;
+    font-size: 2em;
+    transition: 0.4s 0.5s ease-in;
+}
+.main  h3{
+    color: #e7cb8e;
+    font-weight: bold;
+    font-size: 4em;
+    margin-bottom: 20px;
+    transition: 0.4s 0.5s ease-in;
+    
+    
+}
+
+.main  h2:hover{
+    color: #3cbefa;
+}
+.main  h3:hover{
+    color: #f3b42b; 
+}
+
+#more{
+border: 1px solid #e7cb8e;
+color: #e7cb8e;
+background-color: #030F17;
+padding: 20px;
+border-radius: 15px;
+display: inline-block;
+margin-bottom: 40px;
+font-weight: 500;
+transition: 0.4s 0.1s ease-in;
+}
+#more:hover{
+    transform: scale(1.1);
+    transition: 0.2s 0.1s ease-in;
+color: #020b12;
+background-color:#e7cb8e ;
+border: 1px solid #020b12;
+font-weight: 500;
+
+}
+.sochel_icon a{
+    padding: 00px 11px;
+    color:#030F17 ;
+    font-size: 2.2em;
+    transition: 0.4s ease;
+}
+.sochel_icon a:hover{
+    transform: scale(1.1);
+}
+.acv{
+    background: #ffff;
+    
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin:-40px 0 30px 0 ;
+    color: #f3b42b;
+    font-weight: 700;
+    font-size: 2.2em;
+}
+.cards{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.card{
+    border-radius: 13px;
+width: 13em;
+padding: 30px;
+box-shadow: 0 5px 25px #020b12;
+padding: 0px;
+margin-bottom: 30px;
+margin-left: 20px;
+transition: 0.3s ease-in ;
+}
+.card:hover{
+    transform:scale(1.1) ;
+   
+}
+.icon img{
+    border-radius: 13px 13px 0 0px;
+    width: 100%;
+
+}
+.info h2{
+    color: #222;
+    padding: 5px 5px 5px 2px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.8em;
+    margin-top:9px ;
+}
+.info p{
+    text-align: center;
+    padding: 8px;
+    color:#74581e;
+    margin-bottom:10px ;
+    font-weight: 500px;
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Documentaries{
+    background-color: #1B2934;
+   
+}
+.docum .title{
+    margin-top: -100px;
+}
+#cars{
+    display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+  
+}
+.car{
+    width: 15em;
+    border: solid 1px #74581e;
+    transition: 0.3s ease-in ;
+    margin: 10px;
+    
+    
+}
+.car:hover{
+    transform: scale(1.1);
+    border: solid 2px #c6c6cd;
+    
+}
+.media_img img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+
+.information{
+    display: flex;
+    justify-content: space-between;
+}
+.information h2{
+text-align: center;
+margin: 10px;
+margin-top: -5px;
+font-size: medium;
+color: #b98620;
+font-weight: bold;
+font-size: 1em;
+word-spacing: 4px;
+}
+.link a{
+    background-color: #b98620;
+   color: #f1f1ff;
+   margin: 12px;
+   border-radius: 44px;
+   display: flex;
+   justify-content: center;
+}
+.link a:hover{
+    color: #74581e;
+    background-color: #f1f1ff;
+}
+footer{
+    background-color: #222;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    color: aliceblue;
+    font-size: 1.4em;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+footer div a{
+    color: #b98620;
+    margin-right: 50px;
+    padding: 20px;
+    font-size: 1.4em;
+    transition: 0.4s ease;
+}
+footer div a:hover{
+    transform: scale(1.1);
+}
+@media (max-width:500px){
+    header{
+         padding: 10px 20px ;
+         height: 60px;
+    }
+    .logo{
+        font-size: 1em;
+        font-weight: 400;
+    }
+    header nav a{
+        font-size:12px;
+        display: inline-flex;
+        justify-content:flex-end;
+        padding: 2px;
+        margin: 3px 0 3px 2px;
+    }
+section{
+    padding: 70px 10px;
+}
+.main{
+    min-height: 50hv;
+}
+.main h2{
+    font-size: 2.5em;
+}
+.main  h3{
+    font-size: 3.125em;
+}
+#more{
+    padding: 15px;
+    margin-left: 1px;
+}
+.sochel_icon a{
+    margin-left:  1px;
+    padding: 9px;
+}
+.title{
+    font-size: 40px;
+}
+.card{
+    width: 10em;
+    margin-bottom: 20px;
+margin-left: 10px;
+}
+
+.info p{
+    font-size: 12.9px;
+    font-weight: 300px;
+}
+.info h2{
+    font-size: 1.3em;
+    font-weight: 500px;
+}
+.docum .title{
+    margin-top: -70px;
+}
+.car{
+    width: 10.2em;
+}
+footer{
+    height: 50px;
+    margin-top: 20px;
+}
+footer p{
+    font-size: 1em;
+    margin-top: -10px;
+    margin-left: 20px;
+
+}
+footer div a{
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: -20px;
+
+}
+}
+@media (min-width:700px)and(max-width:900px){
+    header{
+        height: 60px;
+        padding: 10px 90px;
+    }
+    section{
+        padding: 100px 100px;
+    }
+    footer div a{
+        font-size: 1.6em;
+    }
+}
+@media (max-width:350px){
+    header{
+        padding: 10px 0;
+    }
+    .logo{
+        font-size: medium;
+        font-weight: 900;
+        color: #a5781e;
+    }
+    header nav a{
+        padding-right:3px; 
+        font-size: 10px;
+    }
+    section{
+        padding: 70px 60px;
+    }
+    .main{
+        min-height: 50hv;
+    }
+    #more{
+        margin-bottom: 30px;
+font-weight: 600;
+padding: 17px;
+    }
+    .title{
+        font-weight: 700;
+    font-size: 25px;
+    }
+ .card{
+    width: 9em;
+    padding-bottom: 10px;
+ }
+ .info p{
+    padding: 2px;
+}
+.docum .title{
+   margin-top: -70px;
+}
+footer p{
+    font-size: 0.7em;
+    margin-top:0;
+}
+}
